@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
+from AppCoder.models import Post, Comentario, Usuario
+from AppCoder.forms import UsuarioForm, BusquedaUsuarioForm
 
-# Create your views here.

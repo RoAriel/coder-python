@@ -3,6 +3,7 @@ from django.db import models
 class Usuario(models.Model):
     id = models.IntegerField.auto_creation_counter
     nombre = models.CharField(max_length=40)
+    mail = models.EmailField
 
 class Post(models.Model):
     id_post = models.IntegerField.auto_creation_counter
