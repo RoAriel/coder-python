@@ -1,9 +1,8 @@
 from django import forms
 
 
-class UsuarioForm(forms.Form):
-    nombre = forms.CharField()
-    email = forms.CharField()
+class PostForm(forms.Form):
+    post = forms.CharField()
 
 
 class BusquedaUsuarioForm(forms.Form):
